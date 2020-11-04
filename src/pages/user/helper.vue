@@ -62,6 +62,11 @@
 
 <script>
 export default {
+  metaInfo() {
+    return {
+      title: "使用帮助",
+    };
+  },
   data() {
     return {
       active: "deploy",

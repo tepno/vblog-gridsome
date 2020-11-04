@@ -20,6 +20,11 @@
 
 <script>
 export default {
+  metaInfo() {
+    return {
+      title: "readme",
+    };
+  },
   data() {
     return {
       loading: false,

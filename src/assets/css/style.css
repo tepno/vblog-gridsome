@@ -1,0 +1,18 @@
+.active--exact {
+  color: blue;
+  text-decoration: underline;
+}
+
+a {
+  color: #212529;
+  transition: all 0.2s;
+}
+
+a:focus, a:hover {
+  color: #0085A1;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+}
